@@ -9,7 +9,7 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  height: 100vh;
+  min-height: 100vh;
   background-image: url(./assets/background.avif);
 }
 .container {
@@ -50,7 +50,9 @@ header {
   justify-content: center;
   align-items: center;
   background-color: rgba(86, 104, 104, 0.815);
-  width: 100%;
+  min-width: 80vh;
+  border-radius: 30px;
+  margin: 10px;
 }
 .temp {
   display: flex;
@@ -81,6 +83,12 @@ ul {
     font-size: 11vh;
   }
   .temp sub {
-    font-size: 17px;
+    font-size: 16px;
   }
+  header h1{
+    font-size: 25px;
+  }
+header{
+  width: auto;
+}
 }
