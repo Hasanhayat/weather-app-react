@@ -53,6 +53,7 @@ header {
   min-width: 80vh;
   border-radius: 30px;
   margin: 10px;
+  width: 100vh;
 }
 .temp {
   display: flex;
